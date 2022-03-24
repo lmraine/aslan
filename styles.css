@@ -164,7 +164,7 @@ section.signup p {
 
 section.signup form {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 input[type="email"] {
@@ -240,7 +240,7 @@ section.onboarding {
 
 section.build-tech {
   display: flex;
-  padding: 4rem 0rem;
+  padding: 0rem 0rem;
 }
 
 section.build-tech div {
@@ -253,6 +253,35 @@ section.build-tech div {
 
 .tech-details {
   background-color: var(--red);
+}
+
+section.sharding {
+  display: flex;
+
+  padding: 3rem 1rem 0rem;
+
+  background-image: url("images/flow/5f6294c0c7a8cde5c5b1c937_bg-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+section.sharding h2 {
+  font-size: 3.5rem;
+  margin-top: 0.7rem;
+  margin-bottom: 2rem;
+}
+section.sharding p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+section.sharding a {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  width: 50%;
+  margin-bottom: 4rem;
 }
 
 footer {
