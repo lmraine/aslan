@@ -204,12 +204,18 @@ section.developer-first a {
   font-size: 1.5rem;
 }
 
-section.developer-first h2 {
+section.onboarding a {
+  color: black;
+  font-size: 1.5rem;
+}
+section.developer-first h2,
+section.onboarding h2 {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
 
-section.developer-first .left p {
+section.developer-first .left p,
+section.onboarding .left p {
   font-size: 1.5rem;
   line-height: 2.5rem;
   margin-bottom: 3rem;
@@ -226,36 +232,42 @@ section.onboarding .right p {
   margin-left: 42px;
 }
 
+section.onboarding {
+  display: flex;
+  padding: 8rem 2rem;
+  gap: 2rem;
+}
+
 section.build-tech {
-    display: flex;
-    padding: 4rem 0rem;
+  display: flex;
+  padding: 4rem 0rem;
 }
 
 section.build-tech div {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .build {
-    background-color: var(--pink);
+  background-color: var(--pink);
 }
 
 .tech-details {
-    background-color: var(--red);
+  background-color: var(--red);
 }
 
 footer {
-    background-color: black;
-    text-align: center;
-    padding: 5rem 2rem;
+  background-color: black;
+  text-align: center;
+  padding: 5rem 2rem;
 }
 
-footer a{
-    color:#eee;
-    text-decoration: none;
+footer a {
+  color: #eee;
+  text-decoration: none;
 }
 
 footer .icon-container a {
-    display:inline-block;
-    width:50px;
-    margin: 2rem 1rem;
+  display: inline-block;
+  width: 50px;
+  margin: 2rem 1rem;
 }
